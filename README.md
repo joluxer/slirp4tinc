@@ -12,11 +12,11 @@ is not always necessary and available.
 ## TODO
 
 * configuration of the slirp parameter from commandline:
-** tinc node IP
-** network mask
-** IPv4/IPv6 settings
-** DNS settings
-** loopback access
+   * tinc node IP
+   * network mask
+   * IPv4/IPv6 settings
+   * DNS settings
+   * loopback access
 * testing
 * documentation, how to start from tincd
 * packet sniffing stuff with pcap file output
