@@ -17,10 +17,10 @@
 
 int main(int argc, char ** argv)
 {
-  ::std::string socketPath("/tmp/umltest");
+  ::std::string socketPath("/var/run/tinc.umlsocket");
   ::arg::Parser p;
 
-  p.add_opt('u', "socket").stow(socketPath);
+  p.add_opt('u', "socket").stow(socketPath).help("set the path to the UML socket").show_default();
 
   p.add_opt_version("devel");
   p.add_opt_help();

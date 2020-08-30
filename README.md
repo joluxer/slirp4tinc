@@ -21,6 +21,9 @@ is not always necessary and available.
 * documentation, how to start from tincd
 * packet sniffing stuff with pcap file output
 * installing
+* error handling for failing UML connection
+* logging
+* daemonize
 
 ## Credits
 The arg library I found somewhere in the 'net, the author is mentioned in the docs as Chun-Chung Chen <cjj@u.washington.edu>.
@@ -28,4 +31,5 @@ The arg library I found somewhere in the 'net, the author is mentioned in the do
 The umlplug stuff stems from the Linux kernel UM drivers and has it's own copyright and copyleft with the authors mentioned 
 in the file headers.
 
-Thanks to the [libvdeslirp](https://github.com/virtualsquare/libvdeslirp) project, making the [libslirp](https://gitlab.freedesktop.org/slirp/libslirp) access so easy.
+Thanks to the [libvdeslirp](https://github.com/virtualsquare/libvdeslirp) project, making the access to 
+[libslirp](https://gitlab.freedesktop.org/slirp/libslirp) so easy.
