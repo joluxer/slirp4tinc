@@ -11,6 +11,7 @@ is not always necessary and available.
 
 ## TODO
 
+* testing
 * configuration of the slirp parameter from commandline:
    * tinc node IP
    * network mask
@@ -20,10 +21,13 @@ is not always necessary and available.
 * testing
 * documentation, how to start from tincd
 * packet sniffing stuff with pcap file output
+* port forwarding into UML socket
 * installing
+* testing
 * error handling for failing UML connection
 * logging
 * daemonize
+* testing
 
 ## Credits
 The arg library I found somewhere in the 'net, the author is mentioned in the docs as Chun-Chung Chen <cjj@u.washington.edu>.
