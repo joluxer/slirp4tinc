@@ -21,3 +21,4 @@ TARGET_LINK_LIBRARIES(slirp4tinc
     ${libSlirp}
 )
 
+INSTALL(TARGETS slirp4tinc RUNTIME DESTINATION bin)

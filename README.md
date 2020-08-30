@@ -20,6 +20,7 @@ is not always necessary and available.
 * testing
 * documentation, how to start from tincd
 * packet sniffing stuff with pcap file output
+* installing
 
 ## Credits
 The arg library I found somewhere in the 'net, the author is mentioned in the docs as Chun-Chung Chen <cjj@u.washington.edu>.
